@@ -1,6 +1,10 @@
 # docker-logitechmediaserver
 
+Logitech Media Server Version: 7.9.1
+
 Docker image for Logitech Media Server (SqueezeCenter, SqueezeboxServer, SlimServer)
+
+Docker based off of https://github.com/gfjardim/docker-containers/tree/master/logitechmediaserver
 
 Run with:
 

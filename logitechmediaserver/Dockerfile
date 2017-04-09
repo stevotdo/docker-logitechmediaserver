@@ -1,5 +1,5 @@
-FROM phusion/baseimage:0.9.16
-MAINTAINER gfjardim <gfjardim@gmail.com>
+FROM phusion/baseimage:0.9.18
+MAINTAINER stevotdo <slayton1986@gmail.com>
 
 #########################################
 ##        ENVIRONMENTAL CONFIG         ##
@@ -23,3 +23,4 @@ RUN chmod +x /tmp/install.sh && /tmp/install.sh && rm /tmp/install.sh
 #########################################
 VOLUME /config /music
 EXPOSE 3483 3483/udp 9000 9090
+
